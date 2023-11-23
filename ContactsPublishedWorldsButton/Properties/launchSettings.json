@@ -1,16 +1,16 @@
 {
   "profiles": {
-    "Launch Neos": {
+    "Launch Resonite": {
       "commandName": "Executable",
-      "executablePath": "$(NeosPath)Neos.exe",
-      "commandLineArgs": "-Screen -Invisible -LoadAssembly \"Libraries/NeosModLoader.dll\" -DontAutoOpenCloudHome -Config Config.json",
-      "workingDirectory": "$(NeosPath)"
+      "executablePath": "$(ResonitePath)Resonite.exe",
+      "commandLineArgs": "-Screen -SkipIntroTutorial -DoNotAutoLoadHome -LoadAssembly Libraries/ResoniteModLoader.dll",
+      "workingDirectory": "$(ResonitePath)"
     },
-    "Launch Neos in VR": {
+    "Launch Resonite in VR": {
       "commandName": "Executable",
-      "executablePath": "$(NeosPath)Neos.exe",
-      "commandLineArgs": "-Invisible -LoadAssembly \"Libraries/NeosModLoader.dll\" -DontAutoOpenCloudHome -Config Config.json",
-      "workingDirectory": "$(NeosPath)"
+      "executablePath": "$(ResonitePath)Resonite.exe",
+      "commandLineArgs": "-SkipIntroTutorial -DoNotAutoLoadHome -LoadAssembly Libraries/ResoniteModLoader.dll",
+      "workingDirectory": "$(ResonitePath)"
     }
   }
 }
