@@ -11,7 +11,7 @@ namespace ContactsPublishedWorldsButton
         public override string Name => "ContactsPublishedWorldsButton";
         public override string Author => "badhaloninja, gameboycjp";
         public override string Version => "2.0.0";
-        public override string Link => "https://github.com/badhaloninja/ContactsPublishedWorldsButton";
+        public override string Link => "https://github.com/gameboycjp/ContactsPublishedWorldsButton";
         public override void OnEngineInit()
         {
             Harmony harmony = new Harmony("gameboycjp.KarIO.ContactsPublishedWorldsButton");
